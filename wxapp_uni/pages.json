@@ -1,0 +1,67 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/reservation/index",
+			"style": {
+				"navigationBarTitleText": "预订",
+				"usingComponents": {},
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/statistics/index",
+			"style": {
+				"navigationBarTitleText": "统计",
+				"usingComponents": {
+					"ec-canvas": "/ec-canvas/ec-canvas"
+				}
+			}
+		},
+		{
+			"path": "pages/user-info/index",
+			"style": {
+				"usingComponents": {}
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#ff7e00",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/icon/i_order.png",
+				"selectedIconPath": "static/images/icon/i_order.png",
+				"text": "报餐"
+			},
+			{
+				"pagePath": "pages/reservation/index",
+				"iconPath": "static/images/icon/i_reorder.png",
+				"selectedIconPath": "static/images/icon/i_reorder.png",
+				"text": "预订"
+			},
+			{
+				"pagePath": "pages/statistics/index",
+				"iconPath": "static/images/icon/i_cont.png",
+				"selectedIconPath": "static/images/icon/i_cont.png",
+				"text": "统计"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json",
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "智慧报餐系统",
+		"navigationBarTextStyle": "black"
+	},
+	"subPackages": []
+}
